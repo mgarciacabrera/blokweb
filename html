@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Verhalen</title>
+    <link rel="stylesheet" href="verhalen.css"> </head>
+
+<body>
+    <header>
+        <nav>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <p>MENU</p>
+            <img src="WOW.png" alt="logo WOW Air">
+<!--            <ul>
+              // hier komt een hamburger menu  
+                <li> <a href="alleverhalen.html">ALLE VERHALEN</a> </li>
+                <li> <a href="korteverhalen.html">KORTE VERHALEN</a> </li>
+                <li><a href="overons.html">OVER ONS</a> </li>
+            </ul> -->
+            <form id="search">
+                <input type="search" placeholder="Zoek een verhaal">
+                <button type="submit">zoek</button>
+            </form>
+        </nav>
+    </header>
+  <hr>   <!-- moet nog vragen hoe dit anders kan, omdat dit css is-->
+    <section>
+<!--       <h1>JE VERHAAL UITKIEZEN</h1>-->
+        <form action="#" method="get" id="filter">
+            <fieldset>
+                <legend>JE VERHAAL UITKIEZEN</legend>
+                <label>Genre</label>
+                <select name="genres" size="4" multiple>
+                    <option value="Komedie">Komedie</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Western">Western</option>
+                    <option value="Liefde">Liefde</option>
+                </select>
+                <label>Leesbaarheid niveau</label>
+                <select name="genres" size="4" multiple>
+                    <option value="Makkelijk">Makkelijk</option>
+                    <option value="Normaal">Normaal</option>
+                    <option value="Moeilijk">Moeilijk</option>
+                    <option value="Expert">Expert</option>
+                </select>
+                <label>Sfeer</label>
+                <select name="genres" size="4" multiple>
+                    <option value="Makkelijk">Makkelijk</option>
+                    <option value="Normaal">Normaal</option>
+                    <option value="Moeilijk">Moeilijk</option>
+                    <option value="Expert">Expert</option>
+                </select>
+                <label>Leesduur</label>
+                <input type="range" min="1" max="60" value="10">
+                <input type="submit">
+                <button formaction="korteverhalen.html">Direct naar korte verhalen</button>
+                <button formaction="korteverhalen.html">Direct naar lange verhalen</button>
+            </fieldset>
+        </form>
+    </section>
+    <section>
+        <h2>Ga verder met lezen..</h2>
+        <p>Dat is wel zo fijn!</p>
+        <!--  Hier komt een carousel idk hoe ik die moet maken      -->
+    </section>
+    <section>
+        <h2>Misschien wat voor jou?</h2>
+        <!--  Hier komt een lijst met sugesties       -->
+    </section>
+</body>
+
+</html>

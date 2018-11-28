@@ -1,0 +1,57 @@
+body {
+    background-color: #fff;
+}
+
+nav {
+    background-color: #fff;
+}
+
+hr {
+    padding-bottom: 0px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%
+}
+
+div {
+    margin-left: 10px;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#search {
+    padding-left: 700px;
+}
+
+legend {
+    text-align: center;
+    background: #8f348b;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 1.2em;
+    font-family: museo-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+#filter | {
+    font-size: 3em;
+    font-family: museo-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    display: block;
+}
+
+fieldset {
+    display: block;
+}
+
